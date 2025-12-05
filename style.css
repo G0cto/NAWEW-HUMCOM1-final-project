@@ -30,6 +30,8 @@
   width: 315px;
   height: 315px;
   object-fit: cover;
+  z-index: 999;
+  border-radius: 50%;
 }
 
 .desktop .hi-im-enrique {
