@@ -1,217 +1,100 @@
-.desktop {
-  background-color: #ffffff;
+body, html {
+  margin: 0;
+  padding: 0;
   width: 100%;
-  min-width: 1440px;
-  min-height: 1004px;
-  position: relative;
+  overflow-x: hidden;
+  font-family: "Inter", sans-serif;
 }
 
-.desktop .rectangle {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 1440px;
-  height: 1004px;
-}
-
-.desktop .div {
-  position: absolute;
-  top: -16px;
-  left: 0;
-  width: 1440px;
-  height: 481px;
+/* Top gray header */
+.header {
+  width: 100%;
   background-color: #585858;
+  padding: 40px 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.desktop .ellipse {
-  position: absolute;
-  top: 62px;
-  left: 562px;
-  width: 315px;
-  height: 315px;
-  object-fit: cover;
-  z-index: 999;
+/* Circle profile */
+.profile {
+  width: 280px;
+  height: 280px;
   border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
 }
 
-.desktop .hi-im-enrique {
-  position: absolute;
-  top: 512px;
-  left: 227px;
-  width: 985px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: transparent;
-  font-size: 60px;
+/* Contact links */
+.contact {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+}
+
+/* Main intro area */
+.intro {
   text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
+  padding: 50px 20px;
 }
 
-.desktop .text-wrapper {
-  color: #000000;
+/* Title text */
+h1 {
+  font-size: 48px;
+  font-weight: 400;
+  margin: 0;
 }
 
-.desktop .span {
+.name {
   color: #e28719;
-}
-
-.desktop .text-wrapper-2 {
-  font-family: "Inter-Bold", Helvetica;
   font-weight: 700;
-  color: #e28719;
 }
 
-.desktop .group {
-  position: absolute;
-  top: 408px;
-  left: 281px;
-  width: 911px;
-  height: 40px;
-  display: flex;
+.sub {
+  font-size: 40px;
+  color: #000;
 }
 
-.desktop .text-wrapper-3 {
+/* Description paragraph */
+.description {
+  max-width: 900px;
+  margin: 40px auto;
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+/* Buttons row */
+.buttons {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 255px;
-  height: 40px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 18px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.desktop .text-wrapper-4 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 330px;
-  height: 40px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 18px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.desktop .text-wrapper-5 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 286px;
-  height: 40px;
-  margin-left: 34px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 18px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.desktop .p {
-  position: absolute;
-  top: 696px;
-  left: 209px;
-  width: 1022px;
-  height: 132px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 28px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.desktop .rounded-rectangle {
-  position: absolute;
-  top: 875px;
-  left: 180px;
-  width: 302px;
-  height: 85px;
-  background-color: #e0cfa8fa;
+  width: 260px;
+  height: 80px;
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
   border-radius: 20px;
+
+  transition: transform 0.3s ease;
 }
 
-.desktop .rectangle-2 {
-  position: absolute;
-  top: 875px;
-  left: 569px;
-  width: 302px;
-  height: 85px;
-  background-color: #d7c18dfa;
-  border-radius: 20px;
+.btn:hover {
+  transform: translateY(-20px);
 }
 
-.desktop .rectangle-3 {
-  position: absolute;
-  top: 875px;
-  left: 958px;
-  width: 302px;
-  height: 85px;
-  background-color: #edb373fa;
-  border-radius: 20px;
-}
+/* Button colors */
+.btn1 { background-color: #e0cfa8fa; }
+.btn2 { background-color: #d7c18dfa; }
+.btn3 { background-color: #edb373fa; }
 
-.desktop .text-wrapper-6 {
-  position: absolute;
-  top: 892px;
-  left: 227px;
-  width: 194px;
-  height: 52px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 28px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.desktop .text-wrapper-7 {
-  position: absolute;
-  top: 892px;
-  left: 623px;
-  width: 194px;
-  height: 52px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 28px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.desktop .HUMCOM-PORTFOLIO {
-  position: absolute;
-  top: 892px;
-  left: 1012px;
-  width: 194px;
-  height: 52px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 28px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}

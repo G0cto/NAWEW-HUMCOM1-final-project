@@ -135,29 +135,29 @@
     height: 83px;
   }
   
-  .desktop .rectangle-4 {
-    top: 0;
-    width: 284px;
-    height: 83px;
-    background-color: #d9d9d9;
-    position: absolute;
-    left: 0;
-  }
-  
-  .desktop .text-wrapper-4 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 284px;
-    height: 83px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 30px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
+.desktop .rectangle-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 284px;
+  height: 83px;
+
+  background-color: #d9d9d9;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 24px;
+  color: #000;
+
+  z-index: 10;
+}
+
+.rectangle-4:hover {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+}

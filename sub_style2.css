@@ -1,0 +1,62 @@
+.desktop {
+  background-color: #525252;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.rectangle {
+  width: 60%;
+  max-width: 900px;
+  margin: 0 auto 20px auto;
+
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  padding: 20px 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 24px;
+  color: black;
+
+  transition: transform 0.3s ease;
+
+}
+
+.rectangle:hover {
+  transform: translateY(-20px);
+}
+
+.rectangle-2 {
+  position: absolute;     
+  bottom: 40px;
+  left: 40px;
+
+  width: 200px;
+  height: 60px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 24px;
+  color: #000;
+
+  transition: transform 0.3s ease;
+}
+
+.rectangle-2:hover {
+  transform: translateY(-20px);
+}
