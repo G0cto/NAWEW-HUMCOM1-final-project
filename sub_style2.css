@@ -33,6 +33,7 @@
 }
 
 .rectangle:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.35);
   transform: translateY(-20px);
 }
 
@@ -59,4 +60,5 @@
 
 .rectangle-2:hover {
   transform: translateY(-20px);
+
 }
