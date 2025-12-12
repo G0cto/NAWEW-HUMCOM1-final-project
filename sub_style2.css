@@ -55,10 +55,11 @@
   font-size: 24px;
   color: #000;
 
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;;
 }
 
 .rectangle-2:hover {
   transform: translateY(-20px);
 
 }
+
